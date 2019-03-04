@@ -1,0 +1,160 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 567px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.w {
+    max-width: 240px;
+    width: 240px;
+}
+.btn-sm {
+  padding-bottom: 6px !important;
+}
+
+.btn-primary {
+  background-color: #121145;
+}
+
+footer {
+  background-color: #121145;
+}
+
+.btn-secondary {
+  background-color: #AFAFAF;
+}
+
+.op65 {
+  opacity: 0.65;
+}
+
+.bolton-bg {
+  background: #121145;
+}
+
+.grey-top {
+  background-color:#e9ecef;
+}
+
+.lj {
+  justify-content: left;
+}
+
+.sticker {
+    font-family: Arial;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+    border-radius: 15px;
+    max-width: 260px;
+    width: 240px;
+    height: 70px;
+    line-height: 90%;
+    border: 1px solid #afafaf;
+}
+
+.sticker h3 {
+  margin-top: 6px;
+  margin-bottom: 0px;
+  font-size: 1.25em;
+}
+
+.top {
+  font-weight: 700;
+}
+
+.antiemetic_drug {
+    background-color: #EFBE7D;
+}
+
+/* Induction agent: Pantone process yellow */
+.induction_agent_drug {
+    background-color: #ffe800;
+}
+
+/* Hypnotic: Pantone 151 (orange) */
+.hypnotic_drug {
+    background-color: #FF8200;
+}
+
+/* Hypnotic antagonist: Panton 151 (orange), white diagonal stripes */
+.hypnotic_antagonist_drug {
+    background: repeating-linear-gradient(
+      -45deg,
+      #ff7477,
+      #ff7477 7px,
+      #ffffff 7px,
+      #ffffff 20px
+    );
+}
+
+/* Neuromuscular blocking drug: Pantone 805 */
+.neuromuscular_blocking_drug {
+    background-color: #ff7477;
+}
+
+/* Neuromuscular blocking drug antagonist: Pantone 805, white diagonal stripes */
+.neuromuscular_blocking_drug_antagonist {
+    background: repeating-linear-gradient(
+      -45deg,
+      #ff7477,
+      #ff7477 7px,
+      #ffffff 7px,
+      #ffffff 20px
+    );
+}
+
+/* Neuromuscular blocking drug: Pantone 805, black stripe and inverted text through title */
+.depolarizing_neuromuscular_blocking_drug {
+    background-color: #ff7477;
+    background: linear-gradient(
+        #000000 50%,
+        #ff7477 50%
+    );
+}
+
+.depolarizing_neuromuscular_blocking_drug .top{
+    color: #ff7477;
+}
+
+
+/* Opioid drug: Pantone 297 (blue) */
+.opioid_drug {
+    background-color: #71C5E8;
+}
+
+/* Opioid antagonist drug: Pantone 297 (blue), white diagonal stripes */
+.opioid_antagonist {
+    background: repeating-linear-gradient(
+        45deg,
+        #71C5E8,
+        #71C5E8 5px,
+        #ffffff 5px,
+        #ffffff 10px
+    );
+}
+
+/* Vasopressor: Pantone 256 (violet) */
+.vasopressor_drug {
+   background-color: #D6BFDD;
+}
+
+/* placeholder for hypotensive_agent_drug */
+
+/* Local Anaesthetics: Pantone 401 (grey) */
+.local_anaesthetics_drug {
+    background-color: #AFA9A0;
+}
+
+/* Anticholinergic: Pantone 367 (green) */
+.anticholinergic_drug {
+    background-color: #A4D65E;
+}
+
+/* use for drugs which are not listed elsewhere, including antibiotics, oxytocin, heparin, protamine */
+.other_drug_agents {
+    background-color: #ffffff;
+}
