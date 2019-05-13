@@ -28,7 +28,8 @@ function assets() {
              'src/browserconfig.xml',
              'src/*.ico',
              'src/manifest.json',
-             'src/pwabuilder-sw.js'])
+             'src/pwabuilder-sw.js',
+             'src/logo.svg'])
     .pipe(dest('build'))
 }
 

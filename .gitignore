@@ -2,3 +2,5 @@
 /.DS_Store
 /.editorconfig
 /node_modules
+/build
+/dist
